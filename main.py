@@ -1,7 +1,7 @@
 import cv2 as c
 import mediapipe as mp
 import pyautogui as pg
-
+# cam
 cam = c.VideoCapture(0)
 face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)
 screen_w, screen_h = pg.size()
